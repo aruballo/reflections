@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A git file is created. I am not sure why this file is needed; perhaps it holds
+the commits inside of it. 

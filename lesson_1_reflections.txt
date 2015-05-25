@@ -1,0 +1,35 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	
+It pointed me to the exact lines in the file that have changed, saving me the trouble of
+figuring out those lines manually. From there it was just a matter of comparing them. 
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can view past mistakes and errors you have made and view how you solved them, in case you run into the same problem
+and need to solve it again. You can study old habits and create new ones that optimize those old habits. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google docs does?
+
+Human error is a con. Leaving the decision up to a user means it becomes subject to the user's discretion, and each individual
+will have different ideas on when to make commits. 
+At the same time, leaving the decision to an informed individual means each commit will make perfect sense. 
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+Because of the files they are intended to hold. Git is version control for source code, and source code can be made up of multiple related files.
+Google docs is simply for files and folders, which can or cannot be related.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+git log shows a history of commits; I can use git diff between commits to see the differences between files from those 2 commits. 
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Knowing I can always revert back allows me to try whatever I want as long as I have previously committed.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to learn how to think like a Git user; currently I use git but make many commits with many different changes not always related, etc.
+I want to learn the proper way to leverage Git for future employment positions. 
