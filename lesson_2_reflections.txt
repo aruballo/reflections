@@ -9,4 +9,23 @@ Staging area holds the changes you are going to commit, and not the actual files
 It decouples your changes from your actual repo and directory. 
 
 How can you use the staging area to make sure you have one commit per logical change?
+
 I can only add the files I need to commit into the staging area before commiting them. That way I am in control of what gets committed. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you are experimenting with a new feature, you could do it in a seperate branch from the master. That way if a bug fix
+is needed in the middle of your work you revert to the master branch and fix the bug, and then checkout your modified branch
+and continue working on your feature without any problems. 
+
+How do the diagrams help you visualize the branch structure?
+
+Easy way to visualize parents and paths. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It combines all the commits from each branch into one single branch. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Not sure. 
